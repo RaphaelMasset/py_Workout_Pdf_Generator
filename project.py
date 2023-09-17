@@ -45,7 +45,7 @@ def main():
             row = table.row()
             for datum in data_row:
                 if datum in ["Monday - Squat","Wednesday - Bench","Friday - Deadlift"]:
-                    row.cell(datum, colspan=2)
+                    row.cell(datum, colspan=1)
                 else:
                     row.cell(datum)
 
